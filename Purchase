@@ -12,10 +12,10 @@ window.dataLayer.push({
       item_name: 'Product 1', 			// insert an actual product name
       item_id: 'product1',				// insert an actual product ID
       price: 11.99,					// insert an actual product price. Number or a string. Don't include currency code
-      item_brand: 'brand A',			// insert an actual product price
-      item_category: 'Apparel',			// insert an actual product top-level category
-	  item_category2: 'T-shirt',		// if it is possible to drill down the categories (e.g. Apparel, then T-shirt, then Men), use item_category2, item_category3, etc. Can use from item_category up to item_category5
-      item_variant: 'Blue',				// insert an actual product variant
+      item_brand: 'brand A',			// insert an actual product price, if we have something
+      item_category: 'Apparel',			// insert an actual product top-level category, if we have something
+	  item_category2: 'T-shirt',		// if it is possible to drill down the categories (e.g. Apparel, then T-shirt, then Men), use item_category2, item_category3, etc. Can use from item_category up to item_category5, if we have something
+      item_variant: 'Blue',				// insert an actual product variant, if we have something
       quantity: '1',					// product quantity
 	  item_coupon: 'SUMMER20'			// if a coupon was applied not to the entire order but to one product, use item_coupon
     },{
